@@ -1,8 +1,44 @@
 [
   {
-    "name": "test",
-    "function": "test",
+    "name": "test_add_grade",
+    "function": "test_add_grade",
     "timeout": 10,
-    "points": 1
+    "points": 10
+  },
+  {
+    "name": "test_calculate_average",
+    "function": "test_calculate_average",
+    "timeout": 10,
+    "points": 10
+  },
+  {
+    "name": "test_graduate_student",
+    "function": "test_graduate_student",
+    "timeout": 10,
+    "points": 10
+  },
+  {
+    "name": "test_integration",
+    "function": "test_integration",
+    "timeout": 10,
+    "points": 10
+  },
+  {
+    "name": "test_student_initialization",
+    "function": "test_student_initialization",
+    "timeout": 10,
+    "points": 10
+  },
+  {
+    "name": "test_student_with_grades",
+    "function": "test_student_with_grades",
+    "timeout": 10,
+    "points": 10
+  },
+  {
+    "name": "test_student_grades_default_factory",
+    "function": "test_student_grades_default_factory",
+    "timeout": 10,
+    "points": 10
   }
 ]
