@@ -16,7 +16,7 @@ def calculate_average(student):
     """
     if not student.grades:
         return 0.0
-    return sum(student.grades) / len(student.grades)
+    return round(sum(student.grades) / len(student.grades),2)
 
 def graduate_student(student):
     """
