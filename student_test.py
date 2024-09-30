@@ -1,16 +1,19 @@
 from student import Student
 
+
 def test_student_initialization():
     student = Student(name='John Doe')
     assert student.name == 'John Doe'
     assert student.grades == []
     assert student.graduated is False
 
+
 def test_student_with_grades():
     student = Student(name='Jane Doe', grades=[85, 90, 78])
     assert student.name == 'Jane Doe'
     assert student.grades == [85, 90, 78]
     assert student.graduated is False
+
 
 def test_student_grades_default_factory():
     student1 = Student(name='Student One')

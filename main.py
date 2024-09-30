@@ -5,6 +5,7 @@ def add_grade(student, grade):
     # todo: implement this function
     pass
 
+
 def calculate_average(student):
     """
     Returns the average of the student's grades.
