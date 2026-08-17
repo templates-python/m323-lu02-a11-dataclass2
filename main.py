@@ -1,3 +1,8 @@
+"""Immutable Dataclass.
+
+Aufgabenstellung: https://wiki.bzz.ch/modul/m323/learningunits/lu02/aufgaben/dataclass2
+"""
+
 def add_grade(student, grade):
     """
     Returns a new Student instance with the added grade.
