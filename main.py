@@ -28,14 +28,14 @@ def graduate_student(student):
 
 
 if __name__ == '__main__':
-    student = Student(name='John Doe')
-    student = add_grade(student, 85)
-    student = add_grade(student, 75)
-    student = add_grade(student, 60)
+    demo_student = Student(name='John Doe')
+    demo_student = add_grade(demo_student, 85)
+    demo_student = add_grade(demo_student, 75)
+    demo_student = add_grade(demo_student, 60)
 
-    print(f'Noten: {student.grades}')
-    average = calculate_average(student)
+    print(f'Noten: {demo_student.grades}')
+    average = calculate_average(demo_student)
     print(f'Durchschnitt: {average}')
 
-    student = graduate_student(student)
-    print(f'Absolviert: {student.graduated}')
+    demo_student = graduate_student(demo_student)
+    print(f'Absolviert: {demo_student.graduated}')
